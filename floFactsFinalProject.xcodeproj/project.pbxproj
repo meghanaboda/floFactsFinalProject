@@ -14,8 +14,6 @@
 		D205DD96267965DF00646F94 /* floFactsFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D205DD94267965DF00646F94 /* floFactsFinalProject.xcdatamodeld */; };
 		D205DD98267965E200646F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D205DD97267965E200646F94 /* Assets.xcassets */; };
 		D205DD9B267965E200646F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D205DD99267965E200646F94 /* LaunchScreen.storyboard */; };
-		D205DDA32679662100646F94 /* pink-watercolor-circle-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D205DDA22679662100646F94 /* pink-watercolor-circle-2.png */; };
-		D205DDA52679665100646F94 /* Flofacts-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = D205DDA42679665100646F94 /* Flofacts-removebg-preview.png */; };
 		D205DDA7267966DF00646F94 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D205DDA6267966DF00646F94 /* AboutViewController.swift */; };
 		D205DDA92679671000646F94 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D205DDA82679671000646F94 /* ResourceViewController.swift */; };
 		D205DDAB2679672B00646F94 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D205DDAA2679672B00646F94 /* TriviaViewController.swift */; };
@@ -35,8 +33,6 @@
 		D205DD97267965E200646F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D205DD9A267965E200646F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D205DD9C267965E200646F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D205DDA22679662100646F94 /* pink-watercolor-circle-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pink-watercolor-circle-2.png"; path = "../../../../../Downloads/pink-watercolor-circle-2.png"; sourceTree = "<group>"; };
-		D205DDA42679665100646F94 /* Flofacts-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flofacts-removebg-preview.png"; path = "../../../../../Downloads/Flofacts-removebg-preview.png"; sourceTree = "<group>"; };
 		D205DDA6267966DF00646F94 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D205DDA82679671000646F94 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		D205DDAA2679672B00646F94 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
@@ -81,8 +77,6 @@
 				D205DD8F267965DF00646F94 /* ViewController.swift */,
 				D205DD91267965DF00646F94 /* Main.storyboard */,
 				D205DD97267965E200646F94 /* Assets.xcassets */,
-				D205DDA42679665100646F94 /* Flofacts-removebg-preview.png */,
-				D205DDA22679662100646F94 /* pink-watercolor-circle-2.png */,
 				D205DD99267965E200646F94 /* LaunchScreen.storyboard */,
 				D205DD9C267965E200646F94 /* Info.plist */,
 				D205DD94267965DF00646F94 /* floFactsFinalProject.xcdatamodeld */,
@@ -157,8 +151,6 @@
 			files = (
 				D205DD9B267965E200646F94 /* LaunchScreen.storyboard in Resources */,
 				D205DD98267965E200646F94 /* Assets.xcassets in Resources */,
-				D205DDA32679662100646F94 /* pink-watercolor-circle-2.png in Resources */,
-				D205DDA52679665100646F94 /* Flofacts-removebg-preview.png in Resources */,
 				D205DD93267965DF00646F94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
