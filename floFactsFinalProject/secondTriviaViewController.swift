@@ -37,7 +37,7 @@ class secondTriviaViewController: UIViewController {
 
     
     @IBAction func screen2Button1(_ sender: UIButton) {
-        screen2Button1.backgroundColor = UIColor.green
+        screen2Button1.backgroundColor = UIColor.red
     }
     
     @IBAction func screen2Button2(_ sender: UIButton) {
@@ -45,7 +45,7 @@ class secondTriviaViewController: UIViewController {
     }
     
     @IBAction func screen2Button3(_ sender: UIButton) {
-        screen2Button3.backgroundColor = UIColor.red
+        screen2Button3.backgroundColor = UIColor.green
     }
     
 }

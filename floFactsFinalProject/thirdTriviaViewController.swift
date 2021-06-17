@@ -9,7 +9,15 @@
 import UIKit
 
 class thirdTriviaViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var screen3Button1: UIButton!
+    
+    @IBOutlet weak var screen3button2: UIButton!
+    
+    @IBOutlet weak var screen3Button3: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,5 +34,18 @@ class thirdTriviaViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    
+    @IBAction func screen3Button1(_ sender: UIButton) {
+        screen3Button1.backgroundColor = UIColor.red
+    }
+    
+    @IBAction func screen3button2(_ sender: UIButton) {
+        screen3button2.backgroundColor = UIColor.red
+    }
+    
+    @IBAction func screen3Button3(_ sender: UIButton) {
+        screen3Button3.backgroundColor = UIColor.red
+    }
+    
 }
