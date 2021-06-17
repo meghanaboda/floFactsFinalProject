@@ -41,7 +41,7 @@ class thirdTriviaViewController: UIViewController {
     }
     
     @IBAction func screen3button2(_ sender: UIButton) {
-        screen3button2.backgroundColor = UIColor.red
+        screen3button2.backgroundColor = UIColor.green
     }
     
     @IBAction func screen3Button3(_ sender: UIButton) {
