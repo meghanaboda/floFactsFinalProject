@@ -138,9 +138,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2l-nf-fzU">
                                 <rect key="frame" x="421" y="294" width="2751" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Krengel rationed her menstrual products, wearing a single sanitary pad for up to 20 hours (instead of the recommended three or four), inserting a contraceptive diaphragm to catch the blood or simply free bleeding (using nothing at all).
+                                <string key="text">Krengel rationed her menstrual products, wearing a single sanitary pad for up to 20 hours (instead of the recommended three or four), inserting a contraceptive diaphragm to catch the blood or simply free bleeding (using nothing at all).
 Throwing away her old jeans later, she noticed that "all of them had this red stain running down the seam, because I would just be free bleeding at least two or three days every week."
-Like countless girls and women around the world who miss days of school or work every month because they can't access the products they need, Krengel found herself spending more time at home, worried about going out.</mutableString>
+Like countless girls and women around the world who miss days of school or work every month because they can't access the products they need, Krengel found herself spending more time at home, worried about going out.</string>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -148,7 +148,7 @@ Like countless girls and women around the world who miss days of school or work 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSg-Mp-NzT">
                                 <rect key="frame" x="27" y="200" width="360" height="495"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Krengel rationed her menstrual products, wearing a single sanitary pad for up to 20 hours (instead of the recommended three or four), inserting a contraceptive diaphragm to catch the blood or simply free bleeding (using nothing at all). Throwing away her old jeans later, she noticed that "all of them had this red stain running down the seam, because I would just be free bleeding at least two or three days every week." Like countless girls and women around the world who miss days of school or work every month because they can't access the products they need, Krengel found herself spending more time at home, worried about going out.</mutableString>
+                                <string key="text">Krengel rationed her menstrual products, wearing a single sanitary pad for up to 20 hours (instead of the recommended three or four), inserting a contraceptive diaphragm to catch the blood or simply free bleeding (using nothing at all). Throwing away her old jeans later, she noticed that "all of them had this red stain running down the seam, because I would just be free bleeding at least two or three days every week." Like countless girls and women around the world who miss days of school or work every month because they can't access the products they need, Krengel found herself spending more time at home, worried about going out.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -288,6 +288,9 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="screen1Button1:" destination="ode-uf-D7Q" eventType="touchUpInside" id="f8S-JB-Whi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oqY-MP-gvF">
                                 <rect key="frame" x="134" y="313" width="172" height="58"/>
@@ -303,6 +306,9 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="screen1Button2:" destination="ode-uf-D7Q" eventType="touchUpInside" id="RdO-Rc-3p5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-Xo-cdE">
                                 <rect key="frame" x="134" y="390" width="172" height="58"/>
@@ -318,6 +324,9 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="screen1Button3:" destination="ode-uf-D7Q" eventType="touchUpInside" id="87A-YV-eTm"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uJD-Ck-7K4">
                                 <rect key="frame" x="100" y="495" width="240" height="128"/>
@@ -353,6 +362,11 @@ Like countless girls and women around the world who miss days of school or work 
                         <viewLayoutGuide key="safeArea" id="mcc-g0-5R8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="screen1Button1" destination="WZb-rK-t8o" id="KNq-Ns-FBw"/>
+                        <outlet property="screen1Button2" destination="oqY-MP-gvF" id="zy8-58-wcR"/>
+                        <outlet property="screen1Button3" destination="HjK-Xo-cdE" id="Z57-UT-WGE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AEO-1F-ILW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -397,6 +411,9 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="screen2Button1:" destination="aKt-Qn-MbW" eventType="touchUpInside" id="mDM-iI-lFm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fWF-Fn-cSc">
                                 <rect key="frame" x="133" y="313" width="172" height="58"/>
@@ -413,6 +430,9 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="screen2Button2:" destination="aKt-Qn-MbW" eventType="touchUpInside" id="p2A-65-CKn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ksw-yx-kkv">
                                 <rect key="frame" x="133" y="390" width="172" height="58"/>
@@ -429,6 +449,9 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="screen2Button3:" destination="aKt-Qn-MbW" eventType="touchUpInside" id="pQu-5T-LF3"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EcT-Co-7nb">
                                 <rect key="frame" x="99" y="495" width="240" height="128"/>
@@ -464,6 +487,11 @@ Like countless girls and women around the world who miss days of school or work 
                         <viewLayoutGuide key="safeArea" id="EFG-k5-0WP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="screen2Button1" destination="YIe-wh-TkF" id="BGk-v8-FTd"/>
+                        <outlet property="screen2Button2" destination="fWF-Fn-cSc" id="1xB-ba-u7f"/>
+                        <outlet property="screen2Button3" destination="ksw-yx-kkv" id="w2l-dz-CWb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uxF-Jg-hCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -646,17 +674,24 @@ Like countless girls and women around the world who miss days of school or work 
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkMarble" translatesAutoresizingMaskIntoConstraints="NO" id="jb5-DF-1pj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkMarble" translatesAutoresizingMaskIntoConstraints="NO" id="jb5-DF-1pj">
                                 <rect key="frame" x="40" y="34" width="335" height="726"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95883303880000004" green="0.82503899619999999" blue="0.88604512619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am6-X4-1Fe">
-                                <rect key="frame" x="119" y="40" width="162" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am6-X4-1Fe">
+                                <rect key="frame" x="119" y="40" width="195" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="backgroundColor" red="0.99874764680000006" green="0.88629412649999995" blue="0.91876059769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Resources">
+                                        <attributes>
+                                            <color key="NSColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Courier"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJh-g1-I2j">
                                 <rect key="frame" x="113" y="118" width="176" height="44"/>
@@ -776,7 +811,7 @@ Like countless girls and women around the world who miss days of school or work 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mHh-Zf-VmY"/>
+        <segue reference="diC-qM-yhJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Flofactslogo" width="500" height="500"/>

@@ -9,6 +9,14 @@
 import UIKit
 
 class secondTriviaViewController: UIViewController {
+    
+    @IBOutlet weak var screen2Button1: UIButton!
+    
+    @IBOutlet weak var screen2Button2: UIButton!
+    
+    @IBOutlet weak var screen2Button3: UIButton!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,4 +35,17 @@ class secondTriviaViewController: UIViewController {
     }
     */
 
+    
+    @IBAction func screen2Button1(_ sender: UIButton) {
+        screen2Button1.backgroundColor = UIColor.green
+    }
+    
+    @IBAction func screen2Button2(_ sender: UIButton) {
+        screen2Button2.backgroundColor = UIColor.red
+    }
+    
+    @IBAction func screen2Button3(_ sender: UIButton) {
+        screen2Button3.backgroundColor = UIColor.red
+    }
+    
 }
