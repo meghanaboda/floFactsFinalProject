@@ -250,6 +250,86 @@ Like countless girls and women around the world who miss days of school or work 
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="756.69642857142856"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xg7-Lh-UPX">
+            <objects>
+                <viewController id="dv0-dY-sxq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e9e-bm-ccg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2EE-08-Mlo">
+                                <rect key="frame" x="0.0" y="44" width="414" height="1556"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayU-49-b2c">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="schoolPeriod" translatesAutoresizingMaskIntoConstraints="NO" id="mBC-74-Jyh">
+                                                <rect key="frame" x="59" y="166" width="293" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngQ-Iz-k90">
+                                                <rect key="frame" x="25" y="300" width="360" height="621"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Rachel Krengel, a woman in London, told CNN she rationed her menstrual products, wearing a single sanitary pad for up to 20 hours (instead of the recommended three or four), inserting a contraceptive diaphragm to catch the blood or simply free bleeding (using nothing at all). Throwing away her old jeans later, she noticed that "all of them had this red stain running down the seam, because I would just be free bleeding at least two or three days every week." Like countless girls and women around the world who miss days of school or work every month because they can't access the products they need, Krengel found herself spending more time at home, worried about going out.</mutableString>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="expensive" translatesAutoresizingMaskIntoConstraints="NO" id="kVb-yv-yjH">
+                                                <rect key="frame" x="13" y="919" width="389" height="193"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFu-nS-nuo">
+                                                <rect key="frame" x="25" y="1113" width="360" height="478"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Chicago native Faustina Beninato is faced with a terrible choice every month: whether to spend her limited income on food or menstrual hygiene products. Temporarily homeless, she roams malls and the Harold Washington Library during the day – where she devotes two hours to job searching – and rides CTA trains at night to avoid the cold. 
+
+Beninato is not alone. She is one of millions of people of all age groups who struggle to afford period products. A recent study found that 1 in 5 girls in the U.S., including thousands of Chicago Public Schools students, have either missed school or left early because they did not have access to a tampon or sanitary pad.
+
+“Some may have to choose between food and prescription drugs,” Beninato said. “Some, the pads or food. So, which is it today? If I’m very short on money, what should it be? Food? Lunch? Or get the pad?”</mutableString>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Issue " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56R-am-fNM">
+                                                <rect key="frame" x="68" y="53" width="275" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="61"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1600" id="cfe-SL-ewZ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ayU-49-b2c" secondAttribute="trailing" id="INL-Th-w0O"/>
+                                    <constraint firstAttribute="bottom" secondItem="ayU-49-b2c" secondAttribute="bottom" id="NOo-vq-edO"/>
+                                    <constraint firstItem="ayU-49-b2c" firstAttribute="top" secondItem="2EE-08-Mlo" secondAttribute="top" id="mmd-8D-JKu"/>
+                                    <constraint firstItem="ayU-49-b2c" firstAttribute="leading" secondItem="2EE-08-Mlo" secondAttribute="leading" id="nqJ-rK-Khg"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h57-FB-O1c"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2EE-08-Mlo" firstAttribute="leading" secondItem="h57-FB-O1c" secondAttribute="leading" id="KHN-6S-38P"/>
+                            <constraint firstAttribute="bottom" secondItem="2EE-08-Mlo" secondAttribute="bottom" id="PlN-AS-gI0"/>
+                            <constraint firstItem="ayU-49-b2c" firstAttribute="width" secondItem="e9e-bm-ccg" secondAttribute="width" id="pdM-JA-Djb"/>
+                            <constraint firstItem="2EE-08-Mlo" firstAttribute="top" secondItem="h57-FB-O1c" secondAttribute="top" id="urd-Ur-76q"/>
+                            <constraint firstItem="2EE-08-Mlo" firstAttribute="trailing" secondItem="h57-FB-O1c" secondAttribute="trailing" id="vyo-zB-YGl"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I3Y-Ck-Vjl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="1652.6785714285713"/>
+        </scene>
         <!--First Trivia View Controller-->
         <scene sceneID="F66-qV-o8o">
             <objects>
@@ -288,9 +368,6 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <action selector="screen1Button1:" destination="ode-uf-D7Q" eventType="touchUpInside" id="f8S-JB-Whi"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oqY-MP-gvF">
                                 <rect key="frame" x="134" y="313" width="172" height="58"/>
@@ -306,9 +383,6 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <action selector="screen1Button2:" destination="ode-uf-D7Q" eventType="touchUpInside" id="RdO-Rc-3p5"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-Xo-cdE">
                                 <rect key="frame" x="134" y="390" width="172" height="58"/>
@@ -324,9 +398,6 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <action selector="screen1Button3:" destination="ode-uf-D7Q" eventType="touchUpInside" id="87A-YV-eTm"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uJD-Ck-7K4">
                                 <rect key="frame" x="100" y="495" width="240" height="128"/>
@@ -362,11 +433,6 @@ Like countless girls and women around the world who miss days of school or work 
                         <viewLayoutGuide key="safeArea" id="mcc-g0-5R8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="screen1Button1" destination="WZb-rK-t8o" id="KNq-Ns-FBw"/>
-                        <outlet property="screen1Button2" destination="oqY-MP-gvF" id="zy8-58-wcR"/>
-                        <outlet property="screen1Button3" destination="HjK-Xo-cdE" id="Z57-UT-WGE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AEO-1F-ILW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -411,9 +477,6 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <action selector="screen2Button1:" destination="aKt-Qn-MbW" eventType="touchUpInside" id="mDM-iI-lFm"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fWF-Fn-cSc">
                                 <rect key="frame" x="133" y="313" width="172" height="58"/>
@@ -430,9 +493,6 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <action selector="screen2Button2:" destination="aKt-Qn-MbW" eventType="touchUpInside" id="p2A-65-CKn"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ksw-yx-kkv">
                                 <rect key="frame" x="133" y="390" width="172" height="58"/>
@@ -449,9 +509,6 @@ Like countless girls and women around the world who miss days of school or work 
                                         </fragment>
                                     </attributedString>
                                 </state>
-                                <connections>
-                                    <action selector="screen2Button3:" destination="aKt-Qn-MbW" eventType="touchUpInside" id="pQu-5T-LF3"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EcT-Co-7nb">
                                 <rect key="frame" x="99" y="495" width="240" height="128"/>
@@ -487,11 +544,6 @@ Like countless girls and women around the world who miss days of school or work 
                         <viewLayoutGuide key="safeArea" id="EFG-k5-0WP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="screen2Button1" destination="YIe-wh-TkF" id="BGk-v8-FTd"/>
-                        <outlet property="screen2Button2" destination="fWF-Fn-cSc" id="1xB-ba-u7f"/>
-                        <outlet property="screen2Button3" destination="ksw-yx-kkv" id="w2l-dz-CWb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uxF-Jg-hCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -674,24 +726,17 @@ Like countless girls and women around the world who miss days of school or work 
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkMarble" translatesAutoresizingMaskIntoConstraints="NO" id="jb5-DF-1pj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkMarble" translatesAutoresizingMaskIntoConstraints="NO" id="jb5-DF-1pj">
                                 <rect key="frame" x="40" y="34" width="335" height="726"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95883303880000004" green="0.82503899619999999" blue="0.88604512619999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am6-X4-1Fe">
-                                <rect key="frame" x="119" y="40" width="195" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am6-X4-1Fe">
+                                <rect key="frame" x="119" y="40" width="162" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.99874764680000006" green="0.88629412649999995" blue="0.91876059769999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Resources">
-                                        <attributes>
-                                            <color key="NSColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="Courier"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJh-g1-I2j">
                                 <rect key="frame" x="113" y="118" width="176" height="44"/>
@@ -811,10 +856,11 @@ Like countless girls and women around the world who miss days of school or work 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="diC-qM-yhJ"/>
+        <segue reference="mHh-Zf-VmY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Flofactslogo" width="500" height="500"/>
+        <image name="expensive" width="225" height="225"/>
         <image name="pinkMarble" width="700" height="1136"/>
         <image name="schoolPeriod" width="305" height="165"/>
         <image name="startButton" width="1024" height="1024"/>
