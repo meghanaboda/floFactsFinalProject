@@ -10,6 +10,8 @@ import UIKit
 
 class secondTriviaViewController: UIViewController {
     
+    var score: Int = 0
+    
     @IBOutlet weak var screen2Button1: UIButton!
     
     @IBOutlet weak var screen2Button2: UIButton!
@@ -22,6 +24,7 @@ class secondTriviaViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
     
 
@@ -46,6 +49,16 @@ class secondTriviaViewController: UIViewController {
     
     @IBAction func screen2Button3(_ sender: UIButton) {
         screen2Button3.backgroundColor = UIColor.green
+        score = score + 1
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        //print("segueScore", score)
+        
+        if segue.identifier == "secondToThird" {
+            let thirdTriviaVC = segue.destination as! thirdTriviaViewController;
+            thirdTriviaVC.score = score
+        }
+     }
 }

@@ -11,15 +11,16 @@ import UIKit
 class triviaScoreViewController: UIViewController {
 
     var firstVC = firstTriviaViewController()
+    var score: Int = 0
     
     @IBOutlet weak var finalScore: UILabel!
-//    print(firstVC.score)
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        finalScore.text = String(firstVC.score) + "/3"
+        //print("final", score)
+        finalScore.text = String(score) + "/3"
         
     }
     
