@@ -670,13 +670,6 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="/3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oru-g3-yxr">
-                                <rect key="frame" x="210" y="331" width="63" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="70"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🥳" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLB-eU-TBa">
                                 <rect key="frame" x="172" y="431" width="70" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -702,15 +695,25 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                     <segue destination="PEj-6Z-oaH" kind="presentation" id="WBH-Vg-aah"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="/3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oru-g3-yxr">
+                                <rect key="frame" x="97" y="326" width="222" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="afe-A7-h3L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="PtY-fn-EV3"/>
+                    <connections>
+                        <outlet property="finalScore" destination="oru-g3-yxr" id="erE-7K-sDc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gfw-ps-3qn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2790" y="761"/>
+            <point key="canvasLocation" x="2789.8550724637685" y="760.71428571428567"/>
         </scene>
         <!--ResourceViewController-->
         <scene sceneID="x9D-8h-T9g">
@@ -739,6 +742,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="Girl Stuff Period">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="gspButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="aFV-Kn-TZH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCs-mj-VPt">
                                 <rect key="frame" x="100" y="170" width="202" height="44"/>
@@ -747,6 +753,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="The COVA Project">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tcpButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="2gv-lP-CXX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3y-Mh-8kM">
                                 <rect key="frame" x="156" y="222" width="90" height="44"/>
@@ -755,6 +764,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="PERIOD">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="periodButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="9MF-Jb-SqX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cii-UH-hl1">
                                 <rect key="frame" x="111" y="274" width="182" height="44"/>
@@ -763,6 +775,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="The PAD Project">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="padButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="ZbK-Kk-h3e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thk-j9-DeV">
                                 <rect key="frame" x="50" y="326" width="303" height="44"/>
@@ -771,6 +786,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="Alliance for Period Supplies">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="apsButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="pxx-Ka-pf7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSY-iQ-moO">
                                 <rect key="frame" x="40" y="378" width="323" height="44"/>
@@ -779,6 +797,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="The Homeless Period Project">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="thppButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="cFP-IW-yiu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7C-OG-8od">
                                 <rect key="frame" x="73" y="430" width="255" height="44"/>
@@ -787,6 +808,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="Chicago Period Project">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="cppButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="ymo-2F-h8j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HH-2O-jI4">
                                 <rect key="frame" x="128" y="482" width="146" height="44"/>
@@ -795,6 +819,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="Seattle T2P2">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="st2p2Button:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="bAe-PN-4eD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hr0-Oj-FGj">
                                 <rect key="frame" x="104" y="534" width="191" height="44"/>
@@ -803,6 +830,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="The Period Purse">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tppButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="QUm-IA-9gy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAX-zH-H8x">
                                 <rect key="frame" x="101" y="586" width="200" height="44"/>
@@ -811,6 +841,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="The Kwek Society">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tksButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="R8y-1Q-z1E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBT-Wq-4gl">
                                 <rect key="frame" x="135" y="632" width="128" height="44"/>
@@ -819,6 +852,9 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                                 <state key="normal" title="She Supply">
                                     <color key="titleColor" red="0.44881469010000002" green="0.1608468592" blue="0.21353837849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="ssButton:" destination="0Ck-eT-cDB" eventType="touchUpInside" id="ziq-w9-WxY"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhg-yu-K7f">
                                 <rect key="frame" x="-112" y="760" width="585" height="44"/>
@@ -843,6 +879,19 @@ Beninato is not alone. She is one of millions of people of all age groups who st
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="apsButton" destination="thk-j9-DeV" id="ZOo-qN-bdO"/>
+                        <outlet property="cppButton" destination="v7C-OG-8od" id="xeU-Ra-gBv"/>
+                        <outlet property="gspButton" destination="qJh-g1-I2j" id="VTO-f7-7oe"/>
+                        <outlet property="padButton" destination="cii-UH-hl1" id="XXN-Ig-C20"/>
+                        <outlet property="periodButton" destination="T3y-Mh-8kM" id="Q6b-sm-aan"/>
+                        <outlet property="ssButton" destination="hBT-Wq-4gl" id="lAT-6O-ANS"/>
+                        <outlet property="st2p2Button" destination="4HH-2O-jI4" id="Fqe-N0-Ip4"/>
+                        <outlet property="tcpButton" destination="eCs-mj-VPt" id="LCf-oP-oYC"/>
+                        <outlet property="thppButton" destination="wSY-iQ-moO" id="z47-Gr-4AR"/>
+                        <outlet property="tksButton" destination="OAX-zH-H8x" id="7Nl-6X-Gq2"/>
+                        <outlet property="tppButton" destination="hr0-Oj-FGj" id="GX5-wr-Syw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uu1-o4-6OQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -850,7 +899,7 @@ Beninato is not alone. She is one of millions of people of all age groups who st
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="d4y-0m-i6B"/>
+        <segue reference="WBH-Vg-aah"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Flofactslogo" width="500" height="500"/>

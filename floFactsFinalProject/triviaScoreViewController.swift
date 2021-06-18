@@ -10,10 +10,17 @@ import UIKit
 
 class triviaScoreViewController: UIViewController {
 
+    var firstVC = firstTriviaViewController()
+    
+    @IBOutlet weak var finalScore: UILabel!
+//    print(firstVC.score)
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        finalScore.text = String(firstVC.score) + "/3"
+        
     }
     
 
@@ -26,5 +33,7 @@ class triviaScoreViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+   
 
 }

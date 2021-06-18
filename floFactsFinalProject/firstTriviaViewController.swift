@@ -10,6 +10,7 @@ import UIKit
 
 class firstTriviaViewController: UIViewController {
 
+    var score: Int = 0
     
     @IBOutlet weak var screen1Button1: UIButton!
     
@@ -27,18 +28,20 @@ class firstTriviaViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+     //In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        print("segueScore", score)
     }
-    *///screen1Button1.backgroundColor = UIColor.red
+    
     
     @IBAction func screen1Button1(_ sender: UIButton) {
         screen1Button1.backgroundColor = UIColor.red
+        
     }
     
     
@@ -49,8 +52,10 @@ class firstTriviaViewController: UIViewController {
 
     @IBAction func screen1Button3(_ sender: UIButton) {
         screen1Button3.backgroundColor = UIColor.green
+        score = score + 1
+        print("buttonScore", score)
     }
     
-    
+  
     
 }
